@@ -1,0 +1,61 @@
+<mxfile host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36">
+  <diagram id="13e1069c-82ec-6db2-03f1-153e76fe0fe0" name="Pagina-1">
+    <mxGraphModel dx="1226" dy="650" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7baba1c4bc27f4b0-2" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" value="&lt;div&gt;ui: Screen&lt;/div&gt;&lt;div&gt;class gradeScreen&lt;/div&gt;" vertex="1">
+          <mxGeometry height="580" width="120" x="220" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7baba1c4bc27f4b0-10" parent="7baba1c4bc27f4b0-2" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" value="" vertex="1">
+          <mxGeometry height="230" width="10" x="45" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="7baba1c4bc27f4b0-11" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=horizontal;" target="7baba1c4bc27f4b0-10" value="Pick a Folder">
+          <mxGeometry relative="1" x="0.3714" as="geometry">
+            <mxPoint x="90" y="180" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7baba1c4bc27f4b0-14" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=horizontal;exitX=-0.337;exitY=0.107;exitDx=0;exitDy=0;exitPerimeter=0;" value="&quot;what Folder&quot;">
+          <mxGeometry relative="1" x="-0.3586" as="geometry">
+            <mxPoint x="264.6300000000001" y="204.61" as="sourcePoint" />
+            <mxPoint x="90" y="204.61" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7baba1c4bc27f4b0-34" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" value="" vertex="1">
+          <mxGeometry height="150" width="10" x="270" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="7baba1c4bc27f4b0-35" edge="1" parent="1" source="7baba1c4bc27f4b0-2" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;elbow=vertical;edgeStyle=orthogonalEdgeStyle;curved=1;" value="filePath contains no LGO">
+          <mxGeometry relative="1" x="0.3533" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="380" y="236.6" />
+              <mxPoint x="380" y="280" />
+            </Array>
+            <mxPoint x="465" y="230" as="sourcePoint" />
+            <mxPoint x="281.68" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GDt6D0dwDUl91XfyNPxv-1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;labelPerimeter=1;" value="Teacher" vertex="1">
+          <mxGeometry height="60" width="30" x="70" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GDt6D0dwDUl91XfyNPxv-2" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" value="filePath">
+          <mxGeometry relative="1" x="0.3714" as="geometry">
+            <mxPoint x="90" y="230" as="sourcePoint" />
+            <mxPoint x="265" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GDt6D0dwDUl91XfyNPxv-3" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;elbow=vertical;edgeStyle=orthogonalEdgeStyle;curved=1;" value="self.__label.config(ïnvalid path&quot;)">
+          <mxGeometry relative="1" x="0.1851" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="380" y="289.6" />
+              <mxPoint x="380" y="333" />
+            </Array>
+            <mxPoint x="280" y="290" as="sourcePoint" />
+            <mxPoint x="281.68" y="333" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
